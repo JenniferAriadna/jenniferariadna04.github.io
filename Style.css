@@ -1,0 +1,185 @@
+@charset "utf-8"
+/*Css Document*/
+
+
+    *{
+    margin:0px auto;
+    padding:0px;
+    font-family: helvetica;
+
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: hotpink;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightpink;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: pink;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: hotpink;}
+
+nav{
+    margin:50px auto;
+    width:1000px;
+    height:40px;
+   
+    
+}
+
+ul {
+    list-style:none;
+    width:1000px;
+    height:40px;
+    
+}
+
+li{
+    float:left;
+    width:333px;
+    height:40px;
+    background-color: blueviolet;
+    overflow:hidden;
+    margin-top:0px;
+}
+div.contenedor_general:hover{
+   margin-top: -40px;
+    
+    
+}
+
+div.contenedor_general {
+    width:333px;
+    height:80px;
+    background-color: darksalmon;
+    -webkit-transition:margin-top .2s;
+    
+}
+
+
+div.contenedor_uno{
+    width:333px;
+    height:36px;
+    background-color: pink;
+    overflow:hidden;
+    border-bottom:4px solid hotpink;
+    
+}
+
+div.contenedor_dos{
+    width:333px;
+    height:36px;
+    background-color: hotpink;
+    overflow:hidden;
+    border-bottom:4px solid pink;
+   
+}
+
+p.texto_uno{
+    text-align: center;
+    margin-top:10px;
+    color:white;
+}
+
+p.texto_dos{
+    text-align: center;
+    margin-top:10px;
+    color:white;
+}
+
+
+p{
+    font-family:serif;
+    font-size: 16pt;
+    text-align: justify;
+}
+
+img{
+    display: inline-block;
+    width: 320px;
+    height: 427px;
+
+}
+
+body{
+    background-color: lightpink;
+    width: 1350px;
+    height: 200px;
+}
+
+h1{
+    font-family: cursive;
+    font-style: oblique;
+    font-size: 36pt;
+    color: white;
+    text-align: left;
+
+}
+
+h2{
+    font-family: serif;
+    font-style: italic;
+    font-size: 26pt;
+    color:  white;
+    text-align: left;
+    
+}
+h3{
+    font-family: serif;
+    font-style:italic;
+    font-size: 24pt;
+    text-align: left;
+    color:whitesmoke;
+    font-weight: bolder;
+    
+}
+
+h4{
+    font-family: serif;
+    font-style: italic;
+    font-size: 18pt;
+    text-align: left;
+    color:mediumslateblue;
+}
+
+#valorID {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 16pt;
+    
+}
+
+
